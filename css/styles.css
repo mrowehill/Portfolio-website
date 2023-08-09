@@ -54,7 +54,10 @@ a:active {
 .button, button {
     /* overwrites the browser defaults and resets the border */
     border: none;
-    display: inline-block;
+    display: block;
+    width: 15%;
+    margin: 0 auto;
+    text-align: center;
     /* takes the outer container font */
     font-family: inherit;
     /* styles the button*/
