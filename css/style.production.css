@@ -178,6 +178,16 @@ button:hover, button:focus, .button:hover, .button:focus {
     background-color: lightgray;
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+.skills-table {
+    margin: 0 auto;
+}
+
 @-webkit-keyframes color-change {
     0% {
         fill: #edc655;
